@@ -10,7 +10,7 @@ import NotFound from '@/components/NotFound';
 
 function App() {
   return (
-    <<BrowserRouter basename="/DevStudio">>
+    <BrowserRouter basename="/DevStudio">>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Hero />} />
